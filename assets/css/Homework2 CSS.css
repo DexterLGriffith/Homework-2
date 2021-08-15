@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     padding: 2px;
-    margin: 0px;
+    /* edited margin out to align html better.  */
 }
 main {
     background-color: cadetblue;
@@ -45,13 +45,15 @@ main p {
     
     background-color: cadetblue;
     text-align: justify-right;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 
 
 }
 main img {
     display:inline-block;
-    padding: 20px;
+    padding: 10px;
     max-width: 200px;
     margin-top: 10px;
     float:left;
@@ -62,7 +64,7 @@ main img {
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing:inherit;
-    padding: 10px;
+    padding: 5px;
     margin: 0;
     color: white;
     background-color: cadetblue;
@@ -76,30 +78,32 @@ main img {
     padding: 15px;
     background-color: dimgrey;     
     color: white;
-    border: 5px solid;
-    border-radius: 15px;
+    border: 1px solid;
+    border-radius: 5px;
     border-color: black;
     max-width: 100%;
     
 }
 .card-header {
-    text-align: center;
+    text-align: left;
     padding: 10px;
 
 }
 .card-body {
     background-color: dimgrey;
     color: white;
-    border: 5px solid;
-    border-radius: 15px;
+    border: 1px solid;
+    border-radius: 5px;
     padding: 25px;
     position: relative;
     border-color: black;   
     max-width: 100%; 
     display:block;
+   
 }
 .card-body img {
     max-width: 100%;
+    max-height: 200px;
 }
 
 .contacts {
