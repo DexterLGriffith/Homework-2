@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     padding: 2px;
+  
     /* edited margin out to align html better.  */
 }
 main {
@@ -126,21 +127,31 @@ main img {
     position:inherit;
 }
 .contacts {
-    background: dimgrey;
+    background: cadetblue;
     color: black;
-    border: 1px solid;
+    border: none;
     font-color: white;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
 }
-.contact-body li {
+   
+
+.contact-body {
     display:inline;
-    align-items: inherit;
+    background-color: cadetblue;
+    border: none;
+    font-color:white;
+  
+   
+
 }
 footer {
     padding:30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
 }
 footer h4 {
     font-size: 20px;
+    text-align: center;
 }
