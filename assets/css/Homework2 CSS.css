@@ -21,6 +21,7 @@ header h1{
     font-size: 50px;
     color: white;
 }
+
 nav ul{
     color:white;
 }
@@ -44,6 +45,7 @@ header ul li {
     font-size: 40px;
 
 }
+
 main h2 {
     display: inline-flex;
     background-color: cadetblue;
@@ -97,7 +99,7 @@ main img {
     box-shadow: inset 0px 0px 8px var(darkorchid), 0 0 15px var(black);
     transform: scale(1.05); 
 }
-
+.column {text-shadow: 0 0 5px darkorchid, 0 0 5px black;}
 .card-header {
     text-align: center;
     padding: 2px;   
@@ -157,3 +159,4 @@ footer h4 {
     font-size: 20px;
     text-align: center;
 }
+
