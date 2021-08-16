@@ -10,6 +10,7 @@ main {
 body {
     background-color: cadetblue;
 }
+
 header {
     padding: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -77,22 +78,26 @@ main img {
     background-color: cadetblue;
     max-width: 100%;
 
-
 }
 /* separated card-column and card-header  */
 /* inline-grid to allign elements */
+/* added shadow around text  */
 .card-column {
-    display: -moz-inline-grid;
-    background-color: dimgrey;     
+    display: -moz-inline-grid;      
     color: white;
-    border: 1px solid;
+    border:cadetblue;
     border-radius: 5px;
-    border-color: black;
-    max-width: 100%;
-
- 
-    
+    border-color: cadetblue;
+    max-width: 100%;  
+    background-color: dimgray;  
+    text-shadow: 0 0 5px darkorchid, 0 0 5px black;
 }
+/* added hover to card-body  */
+.card-body:hover {
+    box-shadow: inset 0px 0px 8px var(darkorchid), 0 0 15px var(black);
+    transform: scale(1.05); 
+}
+
 .card-header {
     text-align: center;
     padding: 2px;   
@@ -100,17 +105,15 @@ main img {
     border-color: black;
     border: outset 5px;
     margin-top: auto;
-
-
-}
-.card-column a:hover:not(.active) {
-    background-color:darkorchid;
-    color: white;
+} 
+/* added shadow around text titles */
+body h1 {
+    text-shadow: 0 0 10px darkorchid, 0 0 10px black;
 }
 
 .card-body {
-    background-color: dimgrey;
-    color: white;
+    
+    color: black;
     padding: 25px;
     position: relative;
     border-color: black;   
@@ -134,6 +137,9 @@ main img {
     font-size: x-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    /* added margin left and right auto to center links even across page.  */
 }
    
 
@@ -141,10 +147,6 @@ main img {
     display:inline;
     background-color: cadetblue;
     border: none;
-    font-color:white;
-  
-   
-
 }
 footer {
     padding:30px;
