@@ -10,7 +10,6 @@ main {
 body {
     background-color: cadetblue;
 }
-
 header {
     padding: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +20,6 @@ header h1{
     font-size: 50px;
     color: white;
 }
-
 nav ul{
     color:white;
 }
@@ -43,23 +41,18 @@ header ul li {
     margin-top: 30px;
     color: white;
     font-size: 40px;
-
 }
 
 main h2 {
     display: inline-flex;
     background-color: cadetblue;
 }
-
 main p {
     
     background-color: cadetblue;
     text-align: justify-right;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
-
-
 }
 main img {
     display:inline-block;
@@ -67,7 +60,6 @@ main img {
     max-width: 200px;
     margin-top: 10px;
     float:left;
-
 }
 .row {
     display: flex;
@@ -79,7 +71,6 @@ main img {
     color: white;
     background-color: cadetblue;
     max-width: 100%;
-
 }
 /* separated card-column and card-header  */
 /* inline-grid to allign elements */
@@ -88,6 +79,7 @@ main img {
     display: -moz-inline-grid;      
     color: white;
     border:cadetblue;
+    border-style: inset;
     border-radius: 5px;
     border-color: cadetblue;
     max-width: 100%;  
@@ -112,7 +104,6 @@ main img {
 body h1 {
     text-shadow: 0 0 10px darkorchid, 0 0 10px black;
 }
-
 .card-body {
     
     color: black;
@@ -120,8 +111,7 @@ body h1 {
     position: relative;
     border-color: black;   
     max-width: 100%; 
-    display: block;
-   
+    display: block;  
 }
 .card-body img {
     max-width: 100%;
@@ -143,8 +133,6 @@ body h1 {
     margin-right: auto;
     /* added margin left and right auto to center links even across page.  */
 }
-   
-
 .contact-body {
     display:inline;
     background-color: cadetblue;
