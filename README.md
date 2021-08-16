@@ -37,8 +37,8 @@ Dexter Griffith
 
 ## References
 
-1.https://www.w3schools.com/html/html_images.asp
-2.https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/
-3.https://stackoverflow.com/questions/2918606/how-do-i-render-li-side-by-side
-4.https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
-5.https://www.w3schools.com/css/css_positioning.asp
+1. https://www.w3schools.com/html/html_images.asp
+2. https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/
+3. https://stackoverflow.com/questions/2918606/how-do-i-render-li-side-by-side
+4. https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
+5. https://www.w3schools.com/css/css_positioning.asp
